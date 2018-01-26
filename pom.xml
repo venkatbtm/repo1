@@ -51,3 +51,16 @@
   </distributionManagement>
 
 </project>
+<distributionManagement>
+    <repository>
+         <id>myRelease</id>
+         <name>myRelease</name>
+         <url>http://my-pc:8081/nexus/content/repositories/myRelease/
+</url>
+    </repository>
+    <snapshotRepository>
+         <id>mySnapshot</id>
+         <name>mySnapshot</name>
+         <url>http://my-pc:8081/nexus/content/repositories/mySnapshot/</url>
+    </snapshotRepository>
+</distributionManagement>
